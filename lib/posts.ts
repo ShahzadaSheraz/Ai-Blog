@@ -58,20 +58,15 @@ export function getAllPostSummaries(): PostSummary[] {
   return getSlugs()
     .map((slug) => {
       const parsed = parseFile(slug);
-      if (!parsed) return null;
+      if (!parsed) throw new Error(`Post not found: ${slug}`);
       const { data, content } = parsed;
       const words = content.trim().split(/\s+/).filter(Boolean).length;
       return {
         slug,
-        title: data.title,
-        description: data.description,
-        date: data.date,
-        category: data.category,
-        keywords: data.keywords,
+        ...data,
         readingMinutes: Math.max(1, Math.round(words / 200)),
       };
     })
-    .filter((p): p is PostSummary => p !== null)
     .sort((a, b) => new Date(b.date).getTime() - new Date(a.date).getTime());
 }
 

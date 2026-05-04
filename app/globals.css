@@ -1,0 +1,59 @@
+@import "tailwindcss";
+
+@theme {
+  --font-sans: var(--font-geist-sans), ui-sans-serif, system-ui, sans-serif;
+  --font-mono: var(--font-geist-mono), ui-monospace, monospace;
+}
+
+html {
+  scroll-behavior: smooth;
+}
+
+body {
+  @apply bg-zinc-950 text-zinc-100 antialiased;
+  font-family: var(--font-sans);
+}
+
+.prose-blog {
+  @apply max-w-none text-zinc-300;
+}
+
+.prose-blog h2 {
+  @apply mt-10 text-xl font-semibold tracking-tight text-white sm:text-2xl;
+}
+
+.prose-blog h3 {
+  @apply mt-8 text-lg font-semibold text-white;
+}
+
+.prose-blog p {
+  @apply mt-4 leading-relaxed;
+}
+
+.prose-blog ul {
+  @apply mt-4 list-disc space-y-2 pl-6;
+}
+
+.prose-blog ol {
+  @apply mt-4 list-decimal space-y-2 pl-6;
+}
+
+.prose-blog a {
+  @apply text-indigo-400 underline decoration-indigo-500/40 underline-offset-4 transition hover:text-indigo-300;
+}
+
+.prose-blog blockquote {
+  @apply border-l-4 border-indigo-500/60 pl-4 italic text-zinc-400;
+}
+
+.prose-blog strong {
+  @apply font-semibold text-zinc-100;
+}
+
+.prose-blog hr {
+  @apply my-10 border-zinc-800;
+}
+
+.prose-blog code {
+  @apply rounded bg-zinc-800 px-1.5 py-0.5 text-sm text-indigo-200;
+}

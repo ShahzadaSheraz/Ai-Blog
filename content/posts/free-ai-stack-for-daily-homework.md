@@ -1,12 +1,17 @@
 ---
-title: "A Free AI Stack for Daily Homework (High School & College)"
-description: "Assemble a zero-budget AI toolkit for math checks, language drills, concept explanations, and time management—with integrity guardrails."
-date: "2026-04-20"
-category: "Beginner Guides"
-keywords:
-  - free AI tools students
-  - homework help AI
-  - student AI stack
+title: A Free AI Stack for Daily Homework (High School & College)
+description: >-
+  Assemble a zero-budget AI toolkit for math checks, language drills, concept explanations, and time management—with
+  integrity guardrails.
+date: '2026-04-20'
+category: AI & Machine Learning
+tags:
+  - tooling
+  - homework
+  - starter stack
+author: Editorial Team
+coverImage: 'https://images.unsplash.com/photo-1451187580459-43490279c0fa?auto=format&fit=crop&w=1400&q=80'
+featured: true
 ---
 
 “Free AI stack” sounds like influencer packaging, but for many students it is simply a practical question: which tools are accessible without a credit card, stable on modest hardware, and flexible enough for multiple subjects? This guide proposes a layered stack—chat, search, writing hygiene, and scheduling—that you can assemble without subscriptions, then refine as your needs grow.

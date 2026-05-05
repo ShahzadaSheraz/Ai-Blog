@@ -1,12 +1,17 @@
 ---
-title: "Durable Skills Online Earners Should Build (Beyond the Latest AI Model)"
-description: "Model names change weekly; these skills compound: communication, reliability, verification, niche expertise, and client discovery."
-date: "2026-03-20"
-category: "Online Earning"
-keywords:
-  - online earning skills beginners
-  - future proof freelance skills
-  - AI proof career skills
+title: Durable Skills Online Earners Should Build (Beyond the Latest AI Model)
+description: >-
+  Model names change weekly; these skills compound: communication, reliability, verification, niche expertise, and
+  client discovery.
+date: '2026-03-20'
+category: Productivity Tools
+tags:
+  - career
+  - skills
+  - online work
+author: Editorial Team
+coverImage: 'https://images.unsplash.com/photo-1555949963-aa79dcee981c?auto=format&fit=crop&w=1400&q=80'
+featured: false
 ---
 
 Online earning content often sells a tool-shaped shortcut: the right app, the right prompt, the right side hustle template. Tools change. Markets shift. What compounds across decades is a smaller set of **durable skills**—capabilities that make you valuable whether the model du jour is GPT-style, multimodal, or something entirely new. If you are a student planning income streams, invest in skills that still pay when hype cycles end.

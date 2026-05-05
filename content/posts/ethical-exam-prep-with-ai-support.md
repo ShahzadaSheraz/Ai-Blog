@@ -1,12 +1,17 @@
 ---
-title: "Ethical Exam Prep With AI Support: Notes, Drills, and Integrity Boundaries"
-description: "Prepare for high-stakes exams using AI for practice generation and gap analysis—without crossing the line into disallowed assistance."
-date: "2026-04-16"
-category: "Ethics & Safety"
-keywords:
-  - exam prep AI students
-  - academic integrity exams
-  - practice questions AI
+title: 'Ethical Exam Prep With AI Support: Notes, Drills, and Integrity Boundaries'
+description: >-
+  Prepare for high-stakes exams using AI for practice generation and gap analysis—without crossing the line into
+  disallowed assistance.
+date: '2026-04-16'
+category: Study Tips
+tags:
+  - exams
+  - ethics
+  - prep
+author: Editorial Team
+coverImage: 'https://images.unsplash.com/photo-1516321318423-f06f85e504b3?auto=format&fit=crop&w=1400&q=80'
+featured: false
 ---
 
 Exam season compresses time and raises stakes. AI tools can feel like a superpower: instant practice questions, step-by-step solutions, even mock oral exams. They can also tempt you into policy violations if your institution prohibits AI use during certain assessments. This article focuses on **ethical, broadly defensible** exam prep—while urging you to confirm specifics with your syllabus.

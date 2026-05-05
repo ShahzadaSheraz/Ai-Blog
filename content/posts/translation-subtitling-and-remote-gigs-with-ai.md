@@ -1,12 +1,17 @@
 ---
-title: "Translation, Subtitling, and Remote Gigs With AI: Quality Bars That Clients Notice"
-description: "Understand post-editing workflows for AI translation, subtitle timing pitfalls, and how beginners can enter remote language work responsibly."
-date: "2026-04-02"
-category: "Online Earning"
-keywords:
-  - AI translation freelance
-  - subtitling beginner jobs
-  - post editing machine translation
+title: 'Translation, Subtitling, and Remote Gigs With AI: Quality Bars That Clients Notice'
+description: >-
+  Understand post-editing workflows for AI translation, subtitle timing pitfalls, and how beginners can enter remote
+  language work responsibly.
+date: '2026-04-02'
+category: Tech News
+tags:
+  - localization
+  - remote work
+  - media
+author: Editorial Team
+coverImage: 'https://images.unsplash.com/photo-1504639725590-34d0984388bd?auto=format&fit=crop&w=1400&q=80'
+featured: false
 ---
 
 Remote language work—translation, transcription, subtitling—can fit flexible student schedules. AI has shifted the market: machine translation is stronger, clients expect faster turnaround, and “post-editing” is now a common job category. This guide explains what beginners should expect, how quality is judged, and where AI helps versus hurts.

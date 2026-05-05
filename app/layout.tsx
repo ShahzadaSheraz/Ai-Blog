@@ -4,6 +4,8 @@ import "./globals.css";
 import { Header } from "@/components/Header";
 import { Footer } from "@/components/Footer";
 import { siteConfig } from "@/lib/site";
+import { Providers } from "@/app/providers";
+import { getAllPostSummaries } from "@/lib/posts";
 
 const dmSans = DM_Sans({
   subsets: ["latin"],
@@ -20,13 +22,16 @@ const jetbrains = JetBrains_Mono({
 export const viewport = {
   width: "device-width",
   initialScale: 1,
-  themeColor: "#09090b",
+  themeColor: [
+    { media: "(prefers-color-scheme: light)", color: "#fafafa" },
+    { media: "(prefers-color-scheme: dark)", color: "#09090b" },
+  ],
 };
 
 export const metadata: Metadata = {
   metadataBase: new URL(siteConfig.url),
   title: {
-    default: `${siteConfig.name} | AI Tools for Students & Online Earners`,
+    default: `${siteConfig.name} | Modern AI & Tech Learning Hub`,
     template: `%s | ${siteConfig.name}`,
   },
   description: siteConfig.tagline,
@@ -53,12 +58,21 @@ export default function RootLayout({
 }: Readonly<{
   children: React.ReactNode;
 }>) {
+  const searchIndex = getAllPostSummaries().map((p) => ({
+    slug: p.slug,
+    title: p.title,
+    category: p.category,
+    tags: p.tags,
+  }));
+
   return (
-    <html lang="en" className={`${dmSans.variable} ${jetbrains.variable}`}>
-      <body className="min-h-screen flex flex-col">
-        <Header />
-        <main className="flex-1">{children}</main>
-        <Footer />
+    <html lang="en" className={`${dmSans.variable} ${jetbrains.variable}`} suppressHydrationWarning>
+      <body className="min-h-screen flex flex-col bg-[color:var(--background)]">
+        <Providers>
+          <Header liteSearchPosts={searchIndex} />
+          <main className="flex-1">{children}</main>
+          <Footer />
+        </Providers>
       </body>
     </html>
   );

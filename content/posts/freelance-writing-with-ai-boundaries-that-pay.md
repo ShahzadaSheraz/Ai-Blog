@@ -1,12 +1,17 @@
 ---
-title: "Freelance Writing With AI Boundaries That Pay (Client-Safe Workflows)"
-description: "Build a freelance writing practice that uses AI for speed without destroying trust—contracts, disclosure, fact-checking, and voice."
-date: "2026-04-12"
-category: "Online Earning"
-keywords:
-  - freelance writing AI
-  - AI disclosure clients
-  - content writing beginners
+title: Freelance Writing With AI Boundaries That Pay (Client-Safe Workflows)
+description: >-
+  Build a freelance writing practice that uses AI for speed without destroying trust—contracts, disclosure,
+  fact-checking, and voice.
+date: '2026-04-12'
+category: Productivity Tools
+tags:
+  - freelancing
+  - AI writing
+  - client work
+author: Editorial Team
+coverImage: 'https://images.unsplash.com/photo-1504639725590-34d0984388bd?auto=format&fit=crop&w=1400&q=80'
+featured: true
 ---
 
 Freelance writing is one of the fastest online earning paths for students and beginners—if you can deliver clean drafts on time. AI can help outline, research scan, and edit, but it can also create plagiarism-adjacent risks, factual hallucinations, and voice mismatch that kills retainers. This article proposes client-safe boundaries that still improve throughput.

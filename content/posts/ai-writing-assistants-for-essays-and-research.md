@@ -1,12 +1,17 @@
 ---
-title: "AI Writing Assistants for Essays and Research: A Student-First Framework"
-description: "Learn how to use AI writing tools for brainstorming, outlining, and revision—without outsourcing your thinking or violating academic integrity."
-date: "2026-04-28"
-category: "Student Study Stack"
-keywords:
-  - AI writing tools for students
-  - research essay workflow
-  - academic integrity AI
+title: 'AI Writing Assistants for Essays and Research: A Student-First Framework'
+description: >-
+  Learn how to use AI writing tools for brainstorming, outlining, and revision—without outsourcing your thinking or
+  violating academic integrity.
+date: '2026-04-28'
+category: Data Science
+tags:
+  - research
+  - essays
+  - citations
+author: Editorial Team
+coverImage: 'https://images.unsplash.com/photo-1504639725590-34d0984388bd?auto=format&fit=crop&w=1400&q=80'
+featured: false
 ---
 
 If you are juggling lectures, labs, and a part-time remote role, writing can feel like the bottleneck. AI writing assistants can compress busywork, but they can also flatten your voice or tempt you into shortcuts that violate school policy. This guide offers a practical framework for using AI in essays and research projects while keeping your work defensible, original, and genuinely yours.

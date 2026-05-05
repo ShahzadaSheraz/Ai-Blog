@@ -1,12 +1,17 @@
 ---
-title: "Virtual Assistant Skills Augmented by AI: Inbox, Calendars, and Client Trust"
-description: "Learn VA workflows where AI drafts replies and summaries—while you keep accuracy, tone, and confidentiality under control."
-date: "2026-04-04"
-category: "Online Earning"
-keywords:
-  - virtual assistant AI tools
-  - beginner remote work
-  - email drafting AI
+title: 'Virtual Assistant Skills Augmented by AI: Inbox, Calendars, and Client Trust'
+description: >-
+  Learn VA workflows where AI drafts replies and summaries—while you keep accuracy, tone, and confidentiality under
+  control.
+date: '2026-04-04'
+category: Productivity Tools
+tags:
+  - VA
+  - automation
+  - clients
+author: Editorial Team
+coverImage: 'https://images.unsplash.com/photo-1677442136019-21780ecad995?auto=format&fit=crop&w=1400&q=80'
+featured: false
 ---
 
 Virtual assistant (VA) work is a realistic online earning path for students who can manage calendars, inboxes, and light research. AI can speed drafting and summarization, but clients fire VAs who send wrong dates, leak sensitive info, or sound robotic. This guide maps skills, workflows, and guardrails.

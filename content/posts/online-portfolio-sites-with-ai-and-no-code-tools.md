@@ -1,12 +1,17 @@
 ---
-title: "Online Portfolio Sites With AI and No-Code Tools: Ship Fast, Stay Credible"
-description: "Build a portfolio that wins internships and freelance leads: structure, case studies, performance, and SEO basics—using AI for copy drafts, not fake projects."
-date: "2026-03-22"
-category: "Online Earning"
-keywords:
-  - student portfolio website
-  - no code portfolio AI
-  - Next.js portfolio beginners
+title: 'Online Portfolio Sites With AI and No-Code Tools: Ship Fast, Stay Credible'
+description: >-
+  Build a portfolio that wins internships and freelance leads: structure, case studies, performance, and SEO
+  basics—using AI for copy drafts, not fake projects.
+date: '2026-03-22'
+category: Programming
+tags:
+  - no-code
+  - portfolio
+  - shipping
+author: Editorial Team
+coverImage: 'https://images.unsplash.com/photo-1620712943543-bcc4688e7485?auto=format&fit=crop&w=1400&q=80'
+featured: false
 ---
 
 A portfolio is a proof engine: it turns claims into evidence. AI can help you write copy, generate layout ideas, and tighten wording—but it cannot invent shipped work. For students and beginners entering remote earning, the winning portfolio is clear, fast, and specific.

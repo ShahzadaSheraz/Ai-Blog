@@ -1,12 +1,17 @@
 ---
-title: "Grammarly and AI Editing for Student Writers: Clarity Without Voice-Loss"
-description: "Compare AI editing workflows for students: tone goals, citation safety, ESL support, and when human feedback still wins."
-date: "2026-04-24"
-category: "Student Study Stack"
-keywords:
-  - Grammarly for students
-  - AI editing academic writing
-  - ESL writing tools
+title: 'Grammarly and AI Editing for Student Writers: Clarity Without Voice-Loss'
+description: >-
+  Compare AI editing workflows for students: tone goals, citation safety, ESL support, and when human feedback still
+  wins.
+date: '2026-04-24'
+category: Data Science
+tags:
+  - editing
+  - NLP
+  - writing quality
+author: Editorial Team
+coverImage: 'https://images.unsplash.com/photo-1677442136019-21780ecad995?auto=format&fit=crop&w=1400&q=80'
+featured: false
 ---
 
 Editing tools powered by AI sit in an awkward middle ground: they are not “generative cheating” in the way a full draft request might be, yet they can still homogenize your voice or push stylistic choices you do not understand. For students—especially multilingual writers—the goal is clearer communication without surrendering authorship. This guide maps practical workflows, boundaries, and alternatives.

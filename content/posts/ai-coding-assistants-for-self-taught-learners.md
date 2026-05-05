@@ -1,12 +1,17 @@
 ---
-title: "AI Coding Assistants for Self-Taught Learners: Projects, Debugging, and Depth"
-description: "Use GitHub Copilot-style assistants to learn faster—while avoiding tutorial hell, copy-paste dependency, and shallow interviews."
-date: "2026-04-10"
-category: "Beginner Guides"
-keywords:
-  - AI coding assistant beginners
-  - self taught programming AI
-  - copilot study tips
+title: 'AI Coding Assistants for Self-Taught Learners: Projects, Debugging, and Depth'
+description: >-
+  Use GitHub Copilot-style assistants to learn faster—while avoiding tutorial hell, copy-paste dependency, and shallow
+  interviews.
+date: '2026-04-10'
+category: Programming
+tags:
+  - Copilot
+  - debugging
+  - self-taught
+author: Editorial Team
+coverImage: 'https://images.unsplash.com/photo-1620712943543-bcc4688e7485?auto=format&fit=crop&w=1400&q=80'
+featured: true
 ---
 
 Self-taught learners face a paradox: abundant tutorials reduce friction, but they also reduce the struggle that builds memory. AI coding assistants can shrink debugging time and explain unfamiliar syntax—yet they can also let you ship code you do not understand. This guide shows how to use assistants as training wheels that come off.

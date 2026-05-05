@@ -1,12 +1,17 @@
 ---
-title: "Smart Note-Taking With AI: Notion, Otter, and a Capture System That Scales"
-description: "Design a hybrid note-taking stack for lectures, meetings, and self-study—using AI transcription, summarization, and retrieval without losing originals."
-date: "2026-04-22"
-category: "Student Study Stack"
-keywords:
-  - AI note taking students
-  - Notion AI workflow
-  - lecture transcription Otter
+title: 'Smart Note-Taking With AI: Notion, Otter, and a Capture System That Scales'
+description: >-
+  Design a hybrid note-taking stack for lectures, meetings, and self-study—using AI transcription, summarization, and
+  retrieval without losing originals.
+date: '2026-04-22'
+category: Study Tips
+tags:
+  - notes
+  - Notion
+  - capture
+author: Editorial Team
+coverImage: 'https://images.unsplash.com/photo-1451187580459-43490279c0fa?auto=format&fit=crop&w=1400&q=80'
+featured: false
 ---
 
 Notes are not archives of everything said; they are **retrieval surfaces** for ideas you will need later. AI can help summarize, tag, and search, but sloppy capture creates a beautiful mess. This guide builds a hybrid stack suitable for students and early-career remote workers who split time between campus lectures and client calls.

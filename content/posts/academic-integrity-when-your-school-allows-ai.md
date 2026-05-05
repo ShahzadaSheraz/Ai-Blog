@@ -1,12 +1,17 @@
 ---
-title: "Academic Integrity When Your School Allows AI: Disclosure, Drafts, and Documentation"
-description: "Navigate permissive or mixed AI policies: what to document, how to cite assistance, and how to keep your work demonstrably yours."
-date: "2026-03-24"
-category: "Ethics & Safety"
-keywords:
-  - AI disclosure academic writing
-  - school AI policy students
-  - academic integrity generative AI
+title: 'Academic Integrity When Your School Allows AI: Disclosure, Drafts, and Documentation'
+description: >-
+  Navigate permissive or mixed AI policies: what to document, how to cite assistance, and how to keep your work
+  demonstrably yours.
+date: '2026-03-24'
+category: Tech News
+tags:
+  - policy
+  - academic integrity
+  - schools
+author: Editorial Team
+coverImage: 'https://images.unsplash.com/photo-1677442136019-21780ecad995?auto=format&fit=crop&w=1400&q=80'
+featured: false
 ---
 
 Some institutions now allow limited generative AI in certain courses; others prohibit it entirely. “Allowed sometimes” is the hardest regime because the boundary moves assignment by assignment. This article gives a practical integrity system: disclosure, draft retention, verification, and collaboration hygiene.

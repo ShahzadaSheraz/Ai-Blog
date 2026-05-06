@@ -1,17 +1,31 @@
 ---
-title: 'Privacy and Security When Using Student AI Tools: A Practical Checklist'
+title: 'Privacy & Security When Using Student AI Tools: Practical Checklist'
 description: >-
-  Protect personal data, school accounts, and future job prospects with clear rules for what belongs in cloud AI
-  tools—and what never should.
+  Protect personal data and future prospects using AI tools: clear rules for what belongs in cloud AI—and what never should.
 date: '2026-03-26'
-category: Tech News
+category: Productivity Tools
 tags:
   - privacy
-  - security
-  - students
+  - data security
+  - student safety
+  - cybersecurity
+  - best practices
 author: Editorial Team
-coverImage: 'https://images.unsplash.com/photo-1555949963-aa79dcee981c?auto=format&fit=crop&w=1400&q=80'
+coverImage: 'https://images.unsplash.com/photo-1516321318423-f06f85e504b3?auto=format&fit=crop&w=1400&q=80'
 featured: false
+keywords:
+  - AI privacy
+  - data security
+  - student privacy
+  - cybersecurity
+  - online safety
+og:
+  title: 'Privacy & Security With AI Tools: Student Safety Guide'
+  description: 'Protect your personal data when using AI tools: practical privacy and security checklist for students.'
+  image: 'https://images.unsplash.com/photo-1516321318423-f06f85e504b3?auto=format&fit=crop&w=1200&q=80'
+metaDescription: 'Protect privacy and security using AI tools: checklist for what to share and what to keep private online.'
+canonicalSlug: 'privacy-security-ai-tools'
+readingTime: '8-10 min'
 ---
 
 Generative AI tools can feel ephemeral: you type, you get an answer, you move on. Behind that interaction is a data supply chain: vendors, subprocessors, logging, retention policies, and occasional breaches. For students, the stakes include personal safety, intellectual property, financial aid details, and future employment background checks. This checklist translates privacy from abstract fear into daily habits.

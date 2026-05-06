@@ -1,17 +1,31 @@
 ---
-title: 'Prompt Literacy for Students and Earners: Small Library, Big Leverage'
+title: 'Prompt Literacy for Students & Earners: Build Your Reusable Prompt Library'
 description: >-
-  Stop collecting viral prompts. Build a reusable prompt library for study, writing, coding, and client work—with
-  evaluation habits that keep outputs trustworthy.
+  Stop collecting viral prompts. Build a small reusable prompt library for study, writing, and work—with evaluation habits that keep AI outputs trustworthy.
 date: '2026-03-30'
 category: AI & Machine Learning
 tags:
-  - prompting
-  - literacy
-  - workflows
+  - prompt engineering
+  - AI literacy
+  - productivity
+  - AI tools
+  - learning skills
 author: Editorial Team
 coverImage: 'https://images.unsplash.com/photo-1516321318423-f06f85e504b3?auto=format&fit=crop&w=1400&q=80'
 featured: true
+keywords:
+  - prompt engineering
+  - how to write prompts
+  - AI prompt library
+  - prompt templates
+  - ChatGPT prompts
+og:
+  title: 'Prompt Literacy: Master AI Prompting Skills'
+  description: 'Learn effective prompting: build reusable templates that work for study, writing, coding, and client work.'
+  image: 'https://images.unsplash.com/photo-1516321318423-f06f85e504b3?auto=format&fit=crop&w=1200&q=80'
+metaDescription: 'Build prompt literacy: create reusable AI prompts for study, work, writing—with evaluation and improvement habits.'
+canonicalSlug: 'prompt-literacy-students'
+readingTime: '10-12 min'
 ---
 
 Prompt literacy is not memorizing magic words; it is learning to specify intent, constraints, and evaluation criteria so a model can help without hijacking your judgment. For students juggling assignments and beginners picking up online work, a small reusable library beats a thousand one-off tricks.

@@ -1,17 +1,31 @@
 ---
-title: 'Online Portfolio Sites With AI and No-Code Tools: Ship Fast, Stay Credible'
+title: 'Online Portfolio Sites With AI & No-Code: Ship Fast, Stay Credible'
 description: >-
-  Build a portfolio that wins internships and freelance leads: structure, case studies, performance, and SEO
-  basics—using AI for copy drafts, not fake projects.
+  Build a portfolio that wins internships and clients: clear case studies, fast performance, SEO basics—using AI for copy, not for fake credentials.
 date: '2026-03-22'
 category: Programming
 tags:
-  - no-code
-  - portfolio
-  - shipping
+  - portfolio building
+  - no-code tools
+  - web design
+  - case studies
+  - personal branding
 author: Editorial Team
-coverImage: 'https://images.unsplash.com/photo-1620712943543-bcc4688e7485?auto=format&fit=crop&w=1400&q=80'
+coverImage: 'https://images.unsplash.com/photo-1517694712202-14dd9538aa97?auto=format&fit=crop&w=1400&q=80'
 featured: false
+keywords:
+  - portfolio website
+  - online portfolio
+  - portfolio examples
+  - personal brand
+  - case study writing
+og:
+  title: 'Build Your Online Portfolio: No-Code Tools & AI'
+  description: 'Create a professional portfolio site that wins jobs: case studies, SEO, performance—without coding.'
+  image: 'https://images.unsplash.com/photo-1517694712202-14dd9538aa97?auto=format&fit=crop&w=1200&q=80'
+metaDescription: 'Build your online portfolio: case studies, SEO, performance optimization using AI and no-code tools.'
+canonicalSlug: 'online-portfolio-no-code'
+readingTime: '9-11 min'
 ---
 
 A portfolio is a proof engine: it turns claims into evidence. AI can help you write copy, generate layout ideas, and tighten wording—but it cannot invent shipped work. For students and beginners entering remote earning, the winning portfolio is clear, fast, and specific.

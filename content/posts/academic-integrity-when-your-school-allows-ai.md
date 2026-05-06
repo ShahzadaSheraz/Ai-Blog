@@ -1,17 +1,30 @@
 ---
-title: 'Academic Integrity When Your School Allows AI: Disclosure, Drafts, and Documentation'
+title: 'Academic Integrity With AI: Disclosure, Documentation & Citation Guidelines for Students'
 description: >-
-  Navigate permissive or mixed AI policies: what to document, how to cite assistance, and how to keep your work
-  demonstrably yours.
+  Navigate AI policies in school: practical guidelines for disclosing assistance, documenting sources, keeping work authentically yours, and maintaining academic honesty.
 date: '2026-03-24'
-category: Tech News
+category: Study Tips
 tags:
-  - policy
   - academic integrity
-  - schools
+  - AI disclosure
+  - student ethics
+  - citation
 author: Editorial Team
-coverImage: 'https://images.unsplash.com/photo-1677442136019-21780ecad995?auto=format&fit=crop&w=1400&q=80'
+coverImage: 'https://images.unsplash.com/photo-1517694712202-14dd9538aa97?auto=format&fit=crop&w=1400&q=80'
 featured: false
+keywords:
+  - academic integrity with AI
+  - AI disclosure in essays
+  - maintaining academic honesty
+  - citation with AI assistance
+  - student ethics
+og:
+  title: 'Academic Integrity With AI: Disclosure & Documentation Guide'
+  description: 'Learn how to navigate AI policies in school with practical disclosure and citation guidelines.'
+  image: 'https://images.unsplash.com/photo-1507842217343-583f20270319?auto=format&fit=crop&w=1200&q=80'
+metaDescription: 'Navigate school AI policies with confidence. Guidelines for disclosure, documentation, and maintaining authentic work.'
+canonicalSlug: 'academic-integrity-ai-disclosure'
+readingTime: '9-11 min'
 ---
 
 Some institutions now allow limited generative AI in certain courses; others prohibit it entirely. “Allowed sometimes” is the hardest regime because the boundary moves assignment by assignment. This article gives a practical integrity system: disclosure, draft retention, verification, and collaboration hygiene.

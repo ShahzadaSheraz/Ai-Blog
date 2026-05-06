@@ -1,9 +1,8 @@
 import Link from "next/link";
-import Image from "next/image";
 import type { PostSummary } from "@/lib/posts";
+import { RemoteImage } from "@/components/RemoteImage";
 
-const FALLBACK_IMG =
-  "https://images.unsplash.com/photo-1677442136019-21780ecad995?auto=format&fit=crop&w=960&q=80";
+const FALLBACK_IMG = "/fallback-cover.svg";
 
 export function PostCard({ post, compact }: { post: PostSummary; compact?: boolean }) {
   const cover = post.coverImage ?? FALLBACK_IMG;
@@ -14,7 +13,7 @@ export function PostCard({ post, compact }: { post: PostSummary; compact?: boole
       <article className="group flex overflow-hidden rounded-2xl border border-[color:var(--border)] bg-[color:var(--card)] shadow-soft transition hover:border-indigo-500/35 hover:shadow-soft-lg">
         <div className="relative min-h-[6.75rem] w-[9.5rem] shrink-0 sm:min-h-[8rem] sm:w-44">
           <Link href={`/blog/${post.slug}`}>
-            <Image
+            <RemoteImage
               src={cover}
               alt={alt}
               fill
@@ -46,7 +45,7 @@ export function PostCard({ post, compact }: { post: PostSummary; compact?: boole
     <article className="group flex flex-col overflow-hidden rounded-2xl border border-[color:var(--border)] bg-[color:var(--card)] shadow-soft transition hover:border-indigo-500/35 hover:shadow-soft-lg">
       <div className="relative aspect-[16/10] w-full">
         <Link href={`/blog/${post.slug}`}>
-          <Image
+          <RemoteImage
             src={cover}
             alt={alt}
             fill

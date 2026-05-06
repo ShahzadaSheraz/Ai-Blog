@@ -1,17 +1,31 @@
 ---
-title: ChatGPT Study Plans for Complete Beginners (That Still Work in 2026)
+title: 'ChatGPT Study Plans for Beginners: Build Your Weekly Study System in 2026'
 description: >-
-  Build a weekly study system with ChatGPT: syllabus parsing, active recall, weak-point drills, and guardrails that keep
-  learning honest.
+  Create effective study plans with ChatGPT: active recall, spaced repetition, and guardrails that keep learning honest—proven templates for students.
 date: '2026-04-26'
 category: Study Tips
 tags:
   - ChatGPT
   - study plans
-  - beginners
+  - study techniques
+  - active recall
+  - study system
 author: Editorial Team
-coverImage: 'https://images.unsplash.com/photo-1677442136019-21780ecad995?auto=format&fit=crop&w=1400&q=80'
+coverImage: 'https://images.unsplash.com/photo-1509042239860-f550ce710b93?auto=format&fit=crop&w=1400&q=80'
 featured: true
+keywords:
+  - ChatGPT study plans
+  - study plan template
+  - active recall with AI
+  - effective study techniques
+  - ChatGPT for studying
+og:
+  title: 'ChatGPT Study Plans: Build Your Effective Study System'
+  description: 'Create personalized study plans with ChatGPT using active recall and proven learning techniques.'
+  image: 'https://images.unsplash.com/photo-1509042239860-f550ce710b93?auto=format&fit=crop&w=1200&q=80'
+metaDescription: 'Build effective study plans with ChatGPT: active recall, spaced repetition, and weekly templates that actually work.'
+canonicalSlug: 'chatgpt-study-plans'
+readingTime: '9-11 min'
 ---
 
 Generative chat models are not tutors in the human sense, but they can be excellent **workflow engines** if you know how to steer them. If you are new to ChatGPT—or returning after a long break—this article shows how to build a beginner-friendly study plan that respects your syllabus, your energy, and your institution’s academic integrity expectations.

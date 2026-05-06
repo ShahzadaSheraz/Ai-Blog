@@ -5,17 +5,17 @@ import { ArticleToc } from "@/components/ArticleToc";
 import { BlogSidebar } from "@/components/BlogSidebar";
 import { PostCard } from "@/components/PostCard";
 import { PostEngagement } from "@/components/PostEngagement";
+import { ShareButtons } from "@/components/ShareButtons";
 import { getRecommendedByTags, getPostBySlug, getSlugs, getTrendingSummaries } from "@/lib/posts";
 import { extractToc } from "@/lib/toc";
 import { categorySlugFromLabel } from "@/lib/categories";
 import { siteConfig } from "@/lib/site";
 import type { Metadata } from "next";
-import Image from "next/image";
+import { RemoteImage } from "@/components/RemoteImage";
 import Link from "next/link";
 import { notFound } from "next/navigation";
 
-const FALLBACK_COVER =
-  "https://images.unsplash.com/photo-1677442136019-21780ecad995?auto=format&fit=crop&w=1600&q=80";
+const FALLBACK_COVER = "/fallback-cover.svg";
 
 type Props = { params: Promise<{ slug: string }> };
 
@@ -113,7 +113,7 @@ export default async function BlogPostPage({ params }: Props) {
 
           <header className="mt-6">
             <div className="relative mt-8 aspect-[16/9] overflow-hidden rounded-2xl border border-[color:var(--border)] shadow-soft-lg">
-              <Image src={cover} alt={`Cover illustration for ${post.title}`} fill priority className="object-cover" />
+              <RemoteImage src={cover} alt={`Cover illustration for ${post.title}`} fill priority className="object-cover" />
               <span className="pointer-events-none absolute inset-0 bg-gradient-to-t from-black/70 via-transparent to-transparent" />
               <span className="absolute bottom-4 left-6 text-[0.7rem] font-bold uppercase tracking-widest text-white/95">
                 {post.category}
@@ -160,20 +160,48 @@ export default async function BlogPostPage({ params }: Props) {
             <ArticleBody content={post.content} />
           </div>
 
-          <PostEngagement slug={post.slug} title={post.title} />
-          <ArticleComments slug={post.slug} />
+          {/* Share buttons section */}
+          <div className="mt-12 py-8 border-t border-b border-[color:var(--border)]">
+            <ShareButtons slug={post.slug} title={post.title} />
+          </div>
 
-          <footer className="mt-16 border-t border-[color:var(--border)] pt-12">
-            <div className="flex flex-wrap items-center justify-between gap-4">
-              <h2 className="text-lg font-semibold text-[color:var(--foreground)]">Recommended for you</h2>
-              <p className="text-xs uppercase tracking-[0.2em] text-[color:var(--muted)]">Tag-aware ranking</p>
-            </div>
-            <div className="mt-8 grid gap-8 sm:grid-cols-2">
-              {recommended.map((p) => (
-                <PostCard key={p.slug} post={p} compact />
-              ))}
-            </div>
-          </footer>
+          {/* Engagement section */}
+          <div className="mt-8">
+            <PostEngagement slug={post.slug} title={post.title} />
+          </div>
+
+          {/* Comments section */}
+          <div className="mt-12">
+            <ArticleComments slug={post.slug} />
+          </div>
+
+          {/* Recommended posts section */}
+          {recommended.length > 0 && (
+            <footer className="mt-20 pt-12 border-t border-[color:var(--border)]">
+              <div className="space-y-2 mb-10">
+                <h2 className="text-2xl font-bold tracking-tight text-[color:var(--foreground)]">
+                  Recommended for you
+                </h2>
+                <p className="text-sm text-[color:var(--muted)]">
+                  Related articles based on tags and category
+                </p>
+              </div>
+              <div className="grid gap-6 sm:grid-cols-2">
+                {recommended.slice(0, 4).map((p) => (
+                  <PostCard key={p.slug} post={p} compact />
+                ))}
+              </div>
+              <div className="mt-10 text-center">
+                <Link
+                  href={`/blog?category=${encodeURIComponent(post.category)}`}
+                  className="inline-flex items-center gap-2 px-6 py-3 rounded-xl bg-gradient-to-r from-sky-500 via-indigo-500 to-violet-600 text-white font-semibold shadow-soft-lg hover:opacity-95 transition"
+                >
+                  Browse more {post.category} articles
+                  <span>→</span>
+                </Link>
+              </div>
+            </footer>
+          )}
         </article>
 
         <BlogSidebar trending={getTrendingSummaries(6)} currentSlug={slug} />

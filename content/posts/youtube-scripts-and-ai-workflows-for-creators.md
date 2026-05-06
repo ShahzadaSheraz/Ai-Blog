@@ -1,17 +1,31 @@
 ---
-title: YouTube Scripts and AI Workflows for Student Creators (Without Losing Your Voice)
+title: 'YouTube Scripts & AI Workflows for Creators: Build Your Voice'
 description: >-
-  Build repeatable scripting workflows: hooks, retention beats, b-roll notes, and thumbnails—using AI as a storyboard
-  partner, not a ghostwriter.
+  Create YouTube scripts that preserve your voice: hooks, retention beats, b-roll planning—using AI as a storyboard partner, not a ghostwriter.
 date: '2026-04-08'
 category: Productivity Tools
 tags:
   - YouTube
-  - scripts
-  - creators
+  - content creation
+  - scriptwriting
+  - video creation
+  - content strategy
 author: Editorial Team
-coverImage: 'https://images.unsplash.com/photo-1620712943543-bcc4688e7485?auto=format&fit=crop&w=1400&q=80'
+coverImage: 'https://images.unsplash.com/photo-1519389950473-47ba0277781c?auto=format&fit=crop&w=1400&q=80'
 featured: false
+keywords:
+  - YouTube scripts
+  - video scripting
+  - content creation
+  - YouTube tips
+  - creator tools
+og:
+  title: 'YouTube Scripts With AI: Create Content That Keeps Viewers'
+  description: 'Write effective YouTube scripts with AI: hooks, retention beats, and workflows that preserve your authentic voice.'
+  image: 'https://images.unsplash.com/photo-1519389950473-47ba0277781c?auto=format&fit=crop&w=1200&q=80'
+metaDescription: 'YouTube scripting with AI: hooks, retention, b-roll planning—create engaging videos that reflect your authentic voice.'
+canonicalSlug: 'youtube-scripts-ai'
+readingTime: '9-11 min'
 ---
 
 Student creators often start with enthusiasm and stall at the blank page. AI can help you outline faster, brainstorm hooks, and annotate b-roll—but audiences reward specificity: your dorm setup, your budget constraints, your campus quirks. This guide shows how to build a workflow that preserves voice while reducing friction.

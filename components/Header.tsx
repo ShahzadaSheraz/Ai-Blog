@@ -3,7 +3,7 @@
 import Link from "next/link";
 import { usePathname } from "next/navigation";
 import { useSession } from "next-auth/react";
-import { useMemo, useState } from "react";
+import { useMemo, useState, useEffect } from "react";
 import { motion } from "framer-motion";
 import { Logo } from "@/components/Logo";
 import { ThemeToggle } from "@/components/ThemeToggle";
@@ -58,7 +58,14 @@ export function Header({
 }) {
   const { data: session, status } = useSession();
   const [mobileOpen, setMobileOpen] = useState(false);
+  const [scrollY, setScrollY] = useState(0);
   const hasScrolled = useScrollShadow();
+
+  useEffect(() => {
+    const handleScroll = () => setScrollY(window.scrollY);
+    window.addEventListener("scroll", handleScroll, { passive: true });
+    return () => window.removeEventListener("scroll", handleScroll);
+  }, []);
 
   const centerNav = (
     <>
@@ -130,12 +137,25 @@ export function Header({
 
   return (
     <>
-      <header
-        className={`sticky top-0 z-50 bg-[color:var(--navbar-bg)] backdrop-blur-xl border-b border-[color:var(--border)] transition-all duration-300 ${
-          hasScrolled ? "shadow-soft-lg" : ""
+      <motion.header
+        className={`sticky top-0 z-50 transition-all duration-300 ${
+          hasScrolled
+            ? "bg-[color:var(--navbar-bg)]/95 backdrop-blur-2xl border-b border-[color:var(--border)]/60 shadow-soft-lg"
+            : "bg-[color:var(--navbar-bg)]/50 backdrop-blur-xl border-b border-[color:var(--border)]/40"
         }`}
+        animate={{
+          y: scrollY > 100 ? -80 : 0,
+          opacity: scrollY > 500 ? 0.95 : 1,
+        }}
+        transition={{ duration: 0.3 }}
       >
-        <div className="mx-auto flex max-w-7xl items-center gap-3 px-4 py-3 sm:px-6 sm:py-3.5">
+        <motion.div
+          className="mx-auto flex max-w-7xl items-center gap-3 px-4 py-3 sm:px-6 sm:py-3.5"
+          animate={{
+            height: scrollY > 100 ? 56 : 64,
+          }}
+          transition={{ duration: 0.3 }}
+        >
           {/* Logo section */}
           <motion.div
             className="flex min-w-0 flex-1 items-center gap-3 md:flex-none lg:flex-1"
@@ -210,8 +230,8 @@ export function Header({
               </svg>
             </motion.button>
           </div>
-        </div>
-      </header>
+        </motion.div>
+      </motion.header>
 
       {/* Mobile Navigation Drawer */}
       <MobileNavigation

@@ -3,6 +3,7 @@ import { DM_Sans, JetBrains_Mono } from "next/font/google";
 import "./globals.css";
 import { Header } from "@/components/Header";
 import { Footer } from "@/components/Footer";
+import { LayoutAnimation } from "@/components/animations/LayoutAnimation";
 import { siteConfig } from "@/lib/site";
 import { Providers } from "@/app/providers";
 import { getAllPostSummaries } from "@/lib/posts";
@@ -70,7 +71,9 @@ export default function RootLayout({
       <body className="min-h-screen flex flex-col bg-[color:var(--background)]">
         <Providers>
           <Header liteSearchPosts={searchIndex} />
-          <main className="flex-1">{children}</main>
+          <LayoutAnimation>
+            <main className="flex-1">{children}</main>
+          </LayoutAnimation>
           <Footer />
         </Providers>
       </body>

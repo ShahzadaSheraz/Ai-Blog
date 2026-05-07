@@ -271,8 +271,8 @@ export function NotificationsMenu({ seedItems }: { seedItems?: UiNotification[] 
                   No notifications yet
                 </p>
                 <p className="mt-1 text-xs text-[color:var(--muted)]">
-                    You&apos;re logged in
-                  </p>
+                  You’re logged in
+                </p>
               </div>
             )}
           </motion.div>

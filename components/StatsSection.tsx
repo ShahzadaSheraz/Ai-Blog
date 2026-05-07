@@ -132,6 +132,9 @@ export function StatsSection({ totalArticles, totalCategories, estimatedReaders 
             Join thousands learning AI & tech
           </h3>
           <p className="mt-3 text-[color:var(--muted)]">
+            import Link from "next/link";
+
+<Link href="/">Home</Link>
             Get weekly guides, tool reviews, and study workflows delivered straight to your inbox
           </p>
           <div className="mt-6">

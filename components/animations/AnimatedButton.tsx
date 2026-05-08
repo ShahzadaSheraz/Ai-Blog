@@ -2,11 +2,11 @@
 
 import { motion } from "framer-motion";
 import { useState } from "react";
-import type { ReactNode } from "react";
+import type { MouseEventHandler, ReactNode } from "react";
 
 interface AnimatedButtonProps {
   children: ReactNode;
-  onClick?: () => void;
+  onClick?: MouseEventHandler<HTMLButtonElement | HTMLAnchorElement>;
   className?: string;
   variant?: "primary" | "secondary" | "outline";
   magneticEffect?: boolean;
@@ -28,7 +28,9 @@ export function AnimatedButton({
   const [x, setX] = useState(0);
   const [y, setY] = useState(0);
 
-  const handleMouseMove = (e: React.MouseEvent<HTMLButtonElement>) => {
+  const handleMouseMove = (
+    e: React.MouseEvent<HTMLButtonElement | HTMLAnchorElement>
+  ) => {
     if (!magneticEffect) return;
 
     const button = e.currentTarget;
@@ -58,15 +60,24 @@ export function AnimatedButton({
   };
 
   const Wrapper = href ? motion.a : motion.button;
+  const wrapperProps = href
+    ? {
+        href,
+        onClick,
+        onMouseMove: handleMouseMove,
+        onMouseLeave: handleMouseLeave,
+      }
+    : {
+        type,
+        disabled,
+        onClick,
+        onMouseMove: handleMouseMove,
+        onMouseLeave: handleMouseLeave,
+      };
 
   return (
     <Wrapper
-      href={href}
-      type={type}
-      onClick={onClick}
-      disabled={disabled}
-      onMouseMove={handleMouseMove}
-      onMouseLeave={handleMouseLeave}
+      {...wrapperProps}
       whileHover={{
         scale: 1.05,
         x: magneticEffect ? x : 0,

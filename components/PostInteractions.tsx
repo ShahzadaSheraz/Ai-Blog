@@ -144,7 +144,7 @@ export function PostInteractions({ slug, title }: { slug: string; title: string 
         </motion.button>
       </div>
 
-      {showLoginPrompt && <LoginPrompt onClose={() => setShowLoginPrompt(false)} />}
+      <LoginPrompt open={showLoginPrompt} onClose={() => setShowLoginPrompt(false)} />
     </>
   );
 }

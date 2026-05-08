@@ -3,8 +3,6 @@
 import { motion } from "framer-motion";
 import Link from "next/link";
 
-<Link href="/">Home</Link>
-
 interface StatsProps {
   totalArticles: number;
   totalCategories: number;
@@ -132,19 +130,16 @@ export function StatsSection({ totalArticles, totalCategories, estimatedReaders 
             Join thousands learning AI & tech
           </h3>
           <p className="mt-3 text-[color:var(--muted)]">
-            import Link from "next/link";
-
-<Link href="/">Home</Link>
-            Get weekly guides, tool reviews, and study workflows delivered straight to your inbox
+            Get weekly guides, tool reviews, and study workflows delivered straight to your inbox.
           </p>
           <div className="mt-6">
-            <a
+            <Link
               href="/#newsletter"
               className="inline-flex items-center gap-2 px-6 py-3 rounded-xl bg-gradient-to-r from-sky-500 via-indigo-500 to-violet-600 text-white font-semibold shadow-soft-lg hover:opacity-95 transition"
             >
               Subscribe Now
               <span>→</span>
-            </a>
+            </Link>
           </div>
         </motion.div>
       </div>

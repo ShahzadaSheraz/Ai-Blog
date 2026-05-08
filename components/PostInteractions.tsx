@@ -40,13 +40,13 @@ export function PostInteractions({ slug, title }: { slug: string; title: string 
     loadState();
   }, [slug]);
 
-  const requireAuth = () => {
+  const requireAuth = useCallback(() => {
     if (status !== "authenticated") {
       setShowLoginPrompt(true);
       return false;
     }
     return true;
-  };
+  }, [status]);
 
   const handleLike = useCallback(async () => {
     if (!requireAuth()) return;
@@ -69,7 +69,7 @@ export function PostInteractions({ slug, title }: { slug: string; title: string 
     } finally {
       setLoading(null);
     }
-  }, [slug, state.liked, status]);
+  }, [slug, state.liked, requireAuth]);
 
   const handleBookmark = useCallback(async () => {
     if (!requireAuth()) return;
@@ -92,7 +92,7 @@ export function PostInteractions({ slug, title }: { slug: string; title: string 
     } finally {
       setLoading(null);
     }
-  }, [slug, state.bookmarked, status]);
+  }, [slug, state.bookmarked, requireAuth]);
 
   return (
     <>
